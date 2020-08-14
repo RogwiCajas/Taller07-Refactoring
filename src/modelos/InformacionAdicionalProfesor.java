@@ -5,4 +5,7 @@ public class InformacionAdicionalProfesor {
     public String facultad;
     public double BonoFijo;
     
+    public double calcularSueldo(Profesor prof){
+        return this.añosdeTrabajo*600 + this.BonoFijo;
+    }  
 }
