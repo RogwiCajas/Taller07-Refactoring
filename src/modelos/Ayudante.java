@@ -17,7 +17,6 @@ public class Ayudante {
         est.setMatricula(matricula);
     }
 
-    //Getters y setters se delegan en objeto estudiante para no duplicar código
     public String getNombre() {
         return est.getNombre();
     }
@@ -26,7 +25,7 @@ public class Ayudante {
         return est.getApellido();
     }
 
-    //Los paralelos se añaden/eliminan directamente del Arraylist de paralelos
+
 
 
     //Método para imprimir los paralelos que tiene asignados como ayudante
